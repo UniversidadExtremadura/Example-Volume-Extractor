@@ -4,6 +4,7 @@ set (MRILibrary_VERSION_MAJOR 0)
 set(MRILibrary_VERSION_MINOR 9)
 set(MRILibrary_VERSION_SUBMINOR 0)
 
+
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 ADD_DEFINITIONS( -Wall )
 set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -std=c++11")
@@ -35,7 +36,8 @@ target_link_libraries(MRILibrary ${LIBS})
 add_executable(TESTS ${TEST_SOURCES})
 target_link_libraries(TESTS MRILibrary)
 
-install(TARGETS MRILibrary DESTINATION /usr/local/lib/MRILibrary)
+install(TARGETS MRILibrary EXPORT MRILibrary DESTINATION /usr/local/lib/)
+install(EXPORT MRILibrary DESTINATION /usr/local/lib/)
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/datatypes # source directory
         DESTINATION /usr/local/include/MRILibrary # target directory
         FILES_MATCHING # install only matched files
@@ -51,4 +53,3 @@ install(DIRECTORY ${CMAKE_SOURCE_DIR}/analyzers # source directory
         FILES_MATCHING # install only matched files
         PATTERN *.h # select header files
 )
-install(FILES MRILibraryConfig.cmake DESTINATION lib/cmake/MRILibrary)

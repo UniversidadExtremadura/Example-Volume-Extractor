@@ -23,8 +23,7 @@ MESSAGE(STATUS ${OpenCV_LIBS})
 #
 set(LIBS ${LIBS} -lm)
 
-find_package(MRILibrary REQUIRED)
-SET(LIBS ${LIBS} MRILibrary)
+SET(LIBS ${LIBS} -lMRILibrary)
 
 add_executable(TESTS ${TEST_SOURCES})
 target_link_libraries(TESTS ${LIBS})
