@@ -1,0 +1,4 @@
+/home/avatar01/MRI/codigo/MRILibrary/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/avatar01/MRI/codigo/MRILibrary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/avatar01/MRI/codigo/MRILibrary/cmake-build-debug/CMakeFiles/TESTS.dir
+/home/avatar01/MRI/codigo/MRILibrary/cmake-build-debug/CMakeFiles/MRILibrary.dir

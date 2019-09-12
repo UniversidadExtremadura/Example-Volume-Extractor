@@ -1,0 +1,8 @@
+/home/avatar01/Escritorio/testMRI/MRILibrary/build/CMakeFiles/install.dir
+/home/avatar01/Escritorio/testMRI/MRILibrary/build/CMakeFiles/list_install_components.dir
+/home/avatar01/Escritorio/testMRI/MRILibrary/build/CMakeFiles/edit_cache.dir
+/home/avatar01/Escritorio/testMRI/MRILibrary/build/CMakeFiles/MRILibrary.dir
+/home/avatar01/Escritorio/testMRI/MRILibrary/build/CMakeFiles/install/strip.dir
+/home/avatar01/Escritorio/testMRI/MRILibrary/build/CMakeFiles/rebuild_cache.dir
+/home/avatar01/Escritorio/testMRI/MRILibrary/build/CMakeFiles/TESTS.dir
+/home/avatar01/Escritorio/testMRI/MRILibrary/build/CMakeFiles/install/local.dir

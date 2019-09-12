@@ -1,0 +1,12 @@
+/usr/local/lib/MRILibrary/libMRILibrary.so
+/usr/local/include/MRILibrary/datatypes/texture.h
+/usr/local/include/MRILibrary/datatypes/extractor.h
+/usr/local/include/MRILibrary/datatypes/opfta.h
+/usr/local/include/MRILibrary/datatypes/cfa.h
+/usr/local/include/MRILibrary/extractors/roiExtractor.h
+/usr/local/include/MRILibrary/extractors/extractor.h
+/usr/local/include/MRILibrary/extractors/voiExtractor.h
+/usr/local/include/MRILibrary/analyzers/analyzer.h
+/usr/local/include/MRILibrary/analyzers/textureAnalyzer.h
+/usr/local/include/MRILibrary/analyzers/opftaAnalyzer.h
+/usr/local/include/MRILibrary/analyzers/cfaAnalyzer.h

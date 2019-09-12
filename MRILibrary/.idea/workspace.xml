@@ -1,0 +1,2028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="MRILibrary" targetName="MRILibrary" />
+      <config projectName="MRILibrary" targetName="TESTS" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ceae932-6adb-4bfc-a964-0150d83ef315" name="Default Changelist" comment="Changed code to use a pair of strings to locate the original image and the contour image.&#10;&#10;Also tested function.">
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-1/IMG-0005-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-10/IMG-0005-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-2/IMG-0006-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-3/IMG-0003-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-4/IMG-0007-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-5/IMG-0008-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-6/IMG-0001-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-7/IMG-0006-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-8/IMG-0007-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1604025-9/IMG-0004-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-1/IMG-0009-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-10/IMG-0003-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-2/IMG-0010-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-3/IMG-0011-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-4/IMG-0012-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-5/IMG-0004-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-6/IMG-0003-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-7/IMG-0005-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-8/IMG-0001-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1605335-9/IMG-0002-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-1/IMG-0013-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-10/IMG-0001-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-2/IMG-0014-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-3/IMG-0015-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-4/IMG-0016-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-5/IMG-0002-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-6/IMG-0001-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-7/IMG-0002-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-8/IMG-0003-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606115-9/IMG-0004-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-1/IMG-0017-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-10/IMG-0001-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-2/IMG-0018-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-3/IMG-0019-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-4/IMG-0020-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-5/IMG-0003-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-6/IMG-0004-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-7/IMG-0005-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-8/IMG-0006-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/DuriberJPG/DU-1606125-9/IMG-0002-00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-10/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-3/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-4/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-4/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-4/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-4/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-4/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-4/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-4/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-4/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-5/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-5/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-5/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-5/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-5/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-5/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-5/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-5/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-6/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1604025-8/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-1/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-10/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-2/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-2/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-2/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-2/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-2/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-2/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-2/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-2/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-3/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-4/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-5/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1605335-6/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-2/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-2/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-2/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-2/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-4/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-4/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-4/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-4/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-4/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-4/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-6/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-6/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-6/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-6/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-6/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-6/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-6/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-6/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-7/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-7/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-7/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-7/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-7/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-7/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-7/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-7/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-9/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-9/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-9/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-9/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-9/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606115-9/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-1/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-1/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-1/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-1/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-10/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-4/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-8/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Derecha/DU-1606125-9/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-1/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-1/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-1/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-1/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-1/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-1/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-1/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-1/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-2/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-2/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-2/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-2/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-7/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-9/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-9/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-9/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-9/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-9/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-9/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-9/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1604025-9/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-7/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-8/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-9/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-9/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-9/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-9/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-9/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-9/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-9/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1605335-9/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-1/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-10/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-3/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-3/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-3/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-3/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-3/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-3/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-3/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-3/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-5/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606115-8/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-2/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-3/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-3/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-3/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-3/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-3/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-3/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-3/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-3/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-5/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-6/plantilla.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../imagenes/ImagenesFiltradas/Izquierda/DU-1606125-7/plantilla.pickle" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored mask="*.txt" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2002453014">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="3" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="4" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="1" />
+          <entry key="cbp" value="1" />
+          <entry key="cpp" value="43" />
+          <entry key="h" value="66" />
+          <entry key="hpp" value="6" />
+          <entry key="txt" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="11" />
+          <entry key="ObjectiveC" value="115" />
+          <entry key="PLAIN_TEXT" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="GDB" value="4" />
+          <entry key="cpp" value="7555" />
+          <entry key="h" value="2525" />
+          <entry key="mm" value="6" />
+          <entry key="txt" value="1119" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="14" />
+          <entry key="GDBCommands" value="4" />
+          <entry key="ObjectiveC" value="10086" />
+          <entry key="PLAIN_TEXT" value="1105" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+              <folding>
+                <element signature="e#40#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datatypes/extractor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extractors/extractor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" column="94" selection-start-line="50" selection-start-column="94" selection-end-line="50" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extractors/extractor.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3885">
+              <caret line="259" column="16" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
+              <folding>
+                <element signature="e#387#3514#0" />
+                <element signature="e#3516#4976#0" />
+                <element signature="e#4978#5099#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extractors/roiExtractor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extractors/voiExtractor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extractors/voiExtractor.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1470">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extractors/roiExtractor.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="91" column="87" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test</find>
+      <find>fs</find>
+      <find>PUNTA2</find>
+      <find>vect</find>
+      <find>crear</find>
+      <find>::extractor</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jua" />
+        <option value="Juan Pedro &lt;juanp.95.torres@gmail.com&gt;" />
+        <option value="JuanP Torres &lt;jutorresm@alumnos.unex.es&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/octaedro.cpp" />
+        <option value="$PROJECT_DIR$/datatypes/texture.h" />
+        <option value="$PROJECT_DIR$/textureAnalyzer.h" />
+        <option value="$PROJECT_DIR$/analyzer.cpp" />
+        <option value="$PROJECT_DIR$/texture.cpp" />
+        <option value="$PROJECT_DIR$/texture.h" />
+        <option value="$PROJECT_DIR$/cfaFTA.h" />
+        <option value="$PROJECT_DIR$/datatypes/opfta.h" />
+        <option value="$PROJECT_DIR$/textureAnalyzer.cpp" />
+        <option value="$PROJECT_DIR$/datatypes/cfa.h" />
+        <option value="$PROJECT_DIR$/cfaAnalyzer.cpp" />
+        <option value="$PROJECT_DIR$/cfaAnalyzer.h" />
+        <option value="$PROJECT_DIR$/opftaAnalyzer.h" />
+        <option value="$PROJECT_DIR$/Analizer.cpp" />
+        <option value="$PROJECT_DIR$/OPFTA.h" />
+        <option value="$PROJECT_DIR$/OPFTA.cpp" />
+        <option value="$PROJECT_DIR$/opftaAnalyzer.cpp" />
+        <option value="$PROJECT_DIR$/analyzer.h" />
+        <option value="$PROJECT_DIR$/datatypes/extractor.h" />
+        <option value="$PROJECT_DIR$/extractor.h" />
+        <option value="$PROJECT_DIR$/extractor.cpp" />
+        <option value="$PROJECT_DIR$/roiExtractor.h" />
+        <option value="$PROJECT_DIR$/roiExtractor.cpp" />
+        <option value="$PROJECT_DIR$/voiExtractor.cpp" />
+        <option value="$PROJECT_DIR$/voiExtractor.h" />
+        <option value="$PROJECT_DIR$/Analizer.h" />
+        <option value="$PROJECT_DIR$/analyzers/analyzer.cpp" />
+        <option value="$PROJECT_DIR$/analyzers/textureAnalyzer.cpp" />
+        <option value="$PROJECT_DIR$/extractors/roiExtractor.h" />
+        <option value="$PROJECT_DIR$/extractors/extractor.h" />
+        <option value="$PROJECT_DIR$/extractors/roiExtractor.cpp" />
+        <option value="$PROJECT_DIR$/extractors/extractor.cpp" />
+        <option value="$PROJECT_DIR$/extractors/voiExtractor.h" />
+        <option value="$PROJECT_DIR$/extractors/voiExtractor.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="955" />
+    <option name="y" value="52" />
+    <option name="width" value="798" />
+    <option name="height" value="998" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MRILibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MRILibrary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MRILibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MRILibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="analyzers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MRILibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MRILibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="datatypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MRILibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MRILibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="extractors" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="texture&#9;FILE&#9;file:///home/avatar01/MRI/codigo/MRILibrary/datatypes/texture.h" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extractors" />
+      <recent name="$PROJECT_DIR$/analyzers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TESTS">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MRILibrary" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MRILibrary" TARGET_NAME="MRILibrary" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TESTS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MRILibrary" TARGET_NAME="TESTS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MRILibrary" RUN_TARGET_NAME="TESTS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.MRILibrary" />
+      <item itemvalue="Application.TESTS" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ceae932-6adb-4bfc-a964-0150d83ef315" name="Default Changelist" comment="" />
+      <created>1536144199389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536144199389</updated>
+      <workItem from="1536144201717" duration="4826000" />
+      <workItem from="1536220039434" duration="12989000" />
+      <workItem from="1536305581224" duration="11933000" />
+      <workItem from="1536318260182" duration="2823000" />
+      <workItem from="1536564908297" duration="15538000" />
+      <workItem from="1536654305268" duration="7790000" />
+      <workItem from="1536665214215" duration="540000" />
+      <workItem from="1539074197198" duration="173000" />
+      <workItem from="1539686674529" duration="1205000" />
+      <workItem from="1539761786414" duration="1218000" />
+      <workItem from="1539848767526" duration="1357000" />
+      <workItem from="1540194076174" duration="595000" />
+      <workItem from="1540366528128" duration="1203000" />
+      <workItem from="1540465898991" duration="1218000" />
+      <workItem from="1542098355841" duration="598000" />
+      <workItem from="1542184741708" duration="593000" />
+      <workItem from="1542270607600" duration="3185000" />
+      <workItem from="1542370765477" duration="1016000" />
+      <workItem from="1542623561291" duration="596000" />
+      <workItem from="1542702972716" duration="2380000" />
+      <workItem from="1542789536120" duration="1878000" />
+      <workItem from="1542876074488" duration="592000" />
+      <workItem from="1542964380348" duration="4525000" />
+      <workItem from="1542970582030" duration="1345000" />
+      <workItem from="1542972824070" duration="595000" />
+      <workItem from="1543223631980" duration="1250000" />
+      <workItem from="1543491209868" duration="3690000" />
+      <workItem from="1543575933595" duration="3588000" />
+      <workItem from="1543827870944" duration="2605000" />
+      <workItem from="1543999376002" duration="14336000" />
+      <workItem from="1544430663240" duration="11881000" />
+      <workItem from="1544603819770" duration="1878000" />
+      <workItem from="1548071864940" duration="49000" />
+      <workItem from="1550478844068" duration="742000" />
+      <workItem from="1551873414957" duration="232000" />
+      <workItem from="1551874150031" duration="3025000" />
+      <workItem from="1551947564565" duration="6715000" />
+      <workItem from="1552049386052" duration="128000" />
+      <workItem from="1553249329249" duration="329000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added new datatypes for textures">
+      <created>1536237871082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536237871082</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Datatypes tests">
+      <created>1536237903701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536237903701</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Datatypes from texture algorithm">
+      <created>1536318652510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536318652519</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CmakeList updated with new classes">
+      <created>1536318683645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536318683645</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Extracted datatypes from texture .h/.cpp">
+      <created>1536318918411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536318918411</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Abstract class for analyze the images">
+      <created>1536318990973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536318990973</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Analyzer for texture tested / all algorithms">
+      <created>1536319151755</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536319151755</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <created>1536319752964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536319752964</updated>
+    </task>
+    <task id="LOCAL-00009" summary="tests">
+      <created>1536319827125</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536319827125</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Datatypes for fractals analysis">
+      <created>1536320160307</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536320160307</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Datatypes for fractals analysis (OPFTA)">
+      <created>1536320822056</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1536320822056</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Extracted datatypes from fractals analysis .h/.cpp">
+      <created>1536320909747</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1536320909747</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated CMakeList">
+      <created>1536320928212</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1536320928212</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated cfa datatypes">
+      <created>1536568370158</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536568370158</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implemented the cfaFTA analyzer">
+      <created>1536568412462</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536568412462</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Implemented the OPFTA analyzer &amp; tested">
+      <created>1536575407926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536575407926</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updated CMakeList - TODO remove old files from compilation">
+      <created>1536575625193</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1536575625193</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Datatype for extracting the roi &amp; voi">
+      <created>1536576145334</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1536576145334</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Created and implemented extractor base class.">
+      <created>1536580231645</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1536580231645</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added extractor class">
+      <created>1536580257977</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1536580257977</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Implemented 2D extractor, not tested">
+      <created>1536582106038</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1536582106038</updated>
+    </task>
+    <task id="LOCAL-00022" summary="removed outpath">
+      <created>1536582130898</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1536582130898</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added region extractor 2D &amp; 3D">
+      <created>1536582154284</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1536582154285</updated>
+    </task>
+    <task id="LOCAL-00024" summary="removed unused include">
+      <created>1536582178320</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1536582178320</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Solved define issue and initialization">
+      <created>1536582224699</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1536582224699</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Implemented 3D extractor, not tested">
+      <created>1536662661729</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1536662661730</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Deleted unused files from class version">
+      <created>1536665288439</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1536665288439</updated>
+    </task>
+    <task id="LOCAL-00028" summary="directory changes">
+      <created>1536665513218</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1536665513218</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated">
+      <created>1536665619232</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1536665619232</updated>
+    </task>
+    <task id="LOCAL-00030" summary="corrected roiExtractor">
+      <created>1544442666995</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1544442666995</updated>
+    </task>
+    <task id="LOCAL-00031" summary="version numbers">
+      <created>1544604558444</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1544604558444</updated>
+    </task>
+    <task id="LOCAL-00032" summary="changed headers to new use new datastructure (pair instead of strings)">
+      <created>1551952409174</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1551952409174</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Changed code to use a pair of strings to locate the original image and the contour image.&#10;&#10;Also tested function.">
+      <created>1551952653484</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1551952653484</updated>
+    </task>
+    <task id="LOCAL-00034" summary="updated cmakelist">
+      <created>1551952974930</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1551952974930</updated>
+    </task>
+    <task id="LOCAL-00035" summary="test voiExtractor">
+      <created>1551953829652</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1551953829652</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="131159000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12555768" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38660908" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2386609" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.31857452" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32829374" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.31641468" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Datatypes for fractals analysis (OPFTA)" />
+    <MESSAGE value="Extracted datatypes from fractals analysis .h/.cpp" />
+    <MESSAGE value="Updated CMakeList" />
+    <MESSAGE value="Updated cfa datatypes" />
+    <MESSAGE value="Implemented the cfaFTA analyzer" />
+    <MESSAGE value="Implemented the OPFTA analyzer &amp; tested" />
+    <MESSAGE value="updated CMakeList - TODO remove old files from compilation" />
+    <MESSAGE value="Datatype for extracting the roi &amp; voi" />
+    <MESSAGE value="Created and implemented extractor base class." />
+    <MESSAGE value="Added extractor class" />
+    <MESSAGE value="Implemented 2D extractor, not tested" />
+    <MESSAGE value="removed outpath" />
+    <MESSAGE value="added region extractor 2D &amp; 3D" />
+    <MESSAGE value="removed unused include" />
+    <MESSAGE value="Solved define issue and initialization" />
+    <MESSAGE value="Implemented 3D extractor, not tested" />
+    <MESSAGE value="Deleted unused files from class version" />
+    <MESSAGE value="directory changes" />
+    <MESSAGE value="Updated" />
+    <MESSAGE value="corrected roiExtractor" />
+    <MESSAGE value="version numbers" />
+    <MESSAGE value="changed headers to new use new datastructure (pair instead of strings)" />
+    <MESSAGE value="Changed code to use a pair of strings to locate the original image and the contour image.&#10;&#10;Also tested function." />
+    <MESSAGE value="updated cmakelist" />
+    <MESSAGE value="test voiExtractor" />
+    <option name="LAST_COMMIT_MESSAGE" value="test voiExtractor" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>l != 0</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/pre.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/MRILibrary.cbp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/re2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/re.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/texturas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfaFTA.h" />
+    <entry file="file://$PROJECT_DIR$/cfaFTA.cpp" />
+    <entry file="file://$PROJECT_DIR$/datatypes/cfa.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datatypes/opfta.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzers/cfaAnalyzer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzers/cfaAnalyzer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="17" selection-start-line="17" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/opftaPRE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/opftaPOST.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzers/opftaAnalyzer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texture.cpp" />
+    <entry file="file://$PROJECT_DIR$/OPFTA.cpp" />
+    <entry file="file://$PROJECT_DIR$/octaedro.h" />
+    <entry file="file://$PROJECT_DIR$/Analizer.cpp" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octaedro.cpp" />
+    <entry file="file://$PROJECT_DIR$/texture.h" />
+    <entry file="file://$PROJECT_DIR$/OPFTA.h" />
+    <entry file="file://$PROJECT_DIR$/Analizer.h" />
+    <entry file="file://$PROJECT_DIR$/analyzers/opftaAnalyzer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzers/textureAnalyzer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datatypes/texture.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzers/analyzer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/i686-linux-gnu/5/include-fixed/limits.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzers/analyzer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzers/textureAnalyzer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/operations.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="2029" selection-start-line="2029" selection-end-line="2029" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/mat.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+          <folding>
+            <element signature="e#40#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datatypes/extractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractors/extractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="94" selection-start-line="50" selection-start-column="94" selection-end-line="50" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractors/extractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3885">
+          <caret line="259" column="16" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
+          <folding>
+            <element signature="e#387#3514#0" />
+            <element signature="e#3516#4976#0" />
+            <element signature="e#4978#5099#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractors/roiExtractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractors/voiExtractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractors/voiExtractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractors/roiExtractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="87" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
