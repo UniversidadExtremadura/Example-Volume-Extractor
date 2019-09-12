@@ -1,5 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/avatar01/MRI/codigo/MRILibrary
--- opencv_videostabopencv_videoopencv_tsopencv_superresopencv_stitchingopencv_photoopencv_oclopencv_objdetectopencv_nonfreeopencv_mlopencv_legacyopencv_imgprocopencv_highguiopencv_gpuopencv_flannopencv_features2dopencv_coreopencv_contribopencv_calib3d
--- Configuring done
--- Generating done
--- Build files have been written to: /home/avatar01/MRI/codigo/MRILibrary/cmake-build-debug
