@@ -6,7 +6,7 @@
 #define MRILIBRARY_CFAANALYZER_H
 
 #include "analyzer.h"
-#include <datatypes/cfa.h>
+#include "../datatypes/cfa.h"
 
 
 class cfaAnalyzer : public analyzer {

@@ -27,5 +27,5 @@ find_package(MRILibrary REQUIRED)
 SET(LIBS ${LIBS} MRILibrary)
 
 add_executable(TESTS ${TEST_SOURCES})
-target_link_libraries(TESTS MRILibrary)
+target_link_libraries(TESTS ${LIBS})
 

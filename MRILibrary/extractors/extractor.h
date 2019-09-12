@@ -9,7 +9,7 @@
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
 #include <stdlib.h>
-#include "datatypes/extractor.h"
+#include "../datatypes/extractor.h"
 
 using namespace cv;
 using namespace std;

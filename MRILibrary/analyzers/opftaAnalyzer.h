@@ -6,7 +6,7 @@
 #define MRILIBRARY_OPFTAANALYZER_H
 
 #include "analyzer.h"
-#include "datatypes/opfta.h"
+#include "../datatypes/opfta.h"
 
 class opftaAnalyzer : public analyzer {
 private:

@@ -51,3 +51,4 @@ install(DIRECTORY ${CMAKE_SOURCE_DIR}/analyzers # source directory
         FILES_MATCHING # install only matched files
         PATTERN *.h # select header files
 )
+install(FILES MRILibraryConfig.cmake DESTINATION lib/cmake/MRILibrary)

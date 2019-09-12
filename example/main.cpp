@@ -7,6 +7,8 @@
 #include <dirent.h>
 #include <memory>
 #include <MRILibrary/extractors/voiExtractor.h>
+#include <opencv/cv.h>
+#include <opencv/highgui.h>
 
 std::vector<std::string> GetDirectoryFiles(const std::string &dir) {
     std::vector<std::string> files;
@@ -22,6 +24,8 @@ std::vector<std::string> GetDirectoryFiles(const std::string &dir) {
     }
     return files;
 }
+
+using namespace cv;
 
 int main()
 {
