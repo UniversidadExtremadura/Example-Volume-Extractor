@@ -36,8 +36,7 @@ target_link_libraries(MRILibrary ${LIBS})
 add_executable(TESTS ${TEST_SOURCES})
 target_link_libraries(TESTS MRILibrary)
 
-install(TARGETS MRILibrary EXPORT MRILibrary DESTINATION /usr/local/lib/)
-install(EXPORT MRILibrary DESTINATION /usr/local/lib/)
+install(TARGETS MRILibrary DESTINATION /usr/local/lib/)
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/datatypes # source directory
         DESTINATION /usr/local/include/MRILibrary # target directory
         FILES_MATCHING # install only matched files
