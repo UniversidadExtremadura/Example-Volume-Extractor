@@ -324,6 +324,13 @@ void textureAnalyzer::algoritmoGLRLM(vectorGLRLM &salida) {
             if (actualVal == neighVal) {
 
                 cont++;
+                runLength = cont - 1;
+                if (runLength == maxRunLen) {
+                    auxiliar = RL0->at<double>(actualVal, runLength);
+                    RL0->at<double>(actualVal, runLength) = auxiliar + 1;
+                    actualVal = neighVal;
+                    cont = 1;
+                }
 
             } else {
 
@@ -356,6 +363,13 @@ void textureAnalyzer::algoritmoGLRLM(vectorGLRLM &salida) {
             if (actualVal == neighVal) {
 
                 cont++;
+                runLength = cont - 1;
+                if (runLength == maxRunLen) {
+                    auxiliar = RL90->at<double>(actualVal, runLength);
+                    RL90->at<double>(actualVal, runLength) = auxiliar + 1;
+                    actualVal = neighVal;
+                    cont = 1;
+                }
 
             } else {
 

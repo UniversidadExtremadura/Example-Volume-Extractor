@@ -34,6 +34,8 @@ public:
 
     double &operator[](int i) { return myv[i]; };
 
+    uint getSize() { return myv.size(); };
+
     ~vectorFCV() {};
 
 };
@@ -70,6 +72,8 @@ public:
     double getSize() const {
         return size;
     }
+
+    double &operator[](int i) { return myv[i]; };
 };
 
 

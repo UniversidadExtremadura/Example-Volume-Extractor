@@ -15,14 +15,15 @@ opftaAnalyzer::~opftaAnalyzer() {
 
 vectorOFCV opftaAnalyzer::opftaAnalysis() {
     vectorOFCV result;
-    if (!inputImg.empty()) {
+    if (!inputImg.empty() && inputImg.cols > 16 && inputImg.rows > 16) {
         int alto = inputImg.rows;
         int ancho = inputImg.cols;
         int columnas = ancho / 16;
         int filas = alto / 16;
-        columnas--;
-        filas--;
-
+        if (inputImg.cols > 32 && inputImg.rows > 32) {
+            columnas--;
+            filas--;
+        }
         Mat *frac = new Mat(filas, columnas, CV_64FC1, Scalar(0.));
 
         FTA(frac, columnas, filas);

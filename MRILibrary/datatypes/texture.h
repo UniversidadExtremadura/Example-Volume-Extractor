@@ -33,6 +33,8 @@ public:
 
     double &operator[](int i) { return myv[i]; };
 
+    uint getSize() { return myv.size(); };
+
     ~vectorGLCM() {};
 
 };
@@ -66,6 +68,8 @@ public:
     double getENT() { return myv[4]; };
 
     double &operator[](int i) { return myv[i]; };
+
+    uint getSize() { return myv.size(); };
 
     ~vectorNGLDM() {};
 };
@@ -105,6 +109,8 @@ public:
     double getLRHGE() { return myv[10]; };
 
     double &operator[](int i) { return myv[i]; };
+
+    uint getSize() { return myv.size(); };
 
     ~vectorGLRLM() {};
 };

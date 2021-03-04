@@ -111,9 +111,9 @@ void cfaAnalyzer::obtenerFractales(std::vector<double> &N, double &p) {
 
     int alto = inputImg.rows;
     int ancho = inputImg.cols;
-    int maximo, tamano;
+    int tamano;
     int i, j, g;
-    int res, aux, auxil;
+    double res, aux, auxil, maximo;
     uchar actVal, neighVal;
 
     maximo = std::max(alto, ancho);
@@ -132,14 +132,42 @@ void cfaAnalyzer::obtenerFractales(std::vector<double> &N, double &p) {
 
     }
 
+
+    for (g = 1; g < p; g++) {
+        res = 0;
+        aux = pow(2, p - g);
+
+
+        for (i = 0; i < pow(2, g); i++) {
+            for (j = 0; j < pow(2, g); j++) {
+                if (i != 0 || j != 0) {
+                    for (int k = 0; k < aux; k++) {
+                        for (int l = 0; l < aux; l++) {
+                            actVal = imagenAmpliada->at<uchar>(k, l);
+                            neighVal = imagenAmpliada->at<uchar>(k + i * aux, l + j * aux);
+
+                            if (actVal == neighVal) {
+
+                                res++;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        N[g] = res;
+    }
+
+    /*
     for (g = p - 1; g > 0; g--) {
 
         res = 0;
         aux = pow(2, p - g);
         auxil = ceil(aux / 2);
 
-        for (i = 1; i < aux; i = i + (maximo - aux)) {
-            for (j = 1; j < aux; j = j + (maximo - aux)) {
+        for (i = 1; i < aux; i = i+1 ) {
+            for (j = 1; j < aux; j = j + 1) {
 
                 actVal = imagenAmpliada->at<uchar>(i, j);
                 neighVal = imagenAmpliada->at<uchar>(i + auxil, j);
@@ -174,6 +202,7 @@ void cfaAnalyzer::obtenerFractales(std::vector<double> &N, double &p) {
 
         N[g] = res;
     }
+*/
 
     delete (imagenAmpliada);
 }
