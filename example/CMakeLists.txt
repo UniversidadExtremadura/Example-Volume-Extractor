@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(t2)
 
+
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 ADD_DEFINITIONS( -Wall )
 set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -std=c++11")
